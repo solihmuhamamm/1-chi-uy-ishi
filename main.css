@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1000px;
+    height: 1096px;
+    margin-left: 50px;
+}
+h1{
+    
+    width: 250px;
+}
+.ul{
+    text-align: center;
+     width: 350px;
+     display: flex;
+     margin-left: 100px;
+     justify-content: center;
+     justify-content: space-between;
+   
+}
+a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+h2{
+    margin-top: 12px;
+    background-color: rgb(188, 185, 185);
+     width: 150px;
+     height: 50px;
+     margin-left: 150px;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.der{
+   margin-top: 12px;
+     width: 150px;
+     height: 50px;
+     background-color: green;
+     margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+    display: flex;
+}
+.red{
+   
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+ 
+        
+}
+.li{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left:25px;
+   
+}
+.img1{
+   
+    margin-top: px;
+    background-image: url(http://premium-house.uz/images/articles/771/primary-original.jpg) ;
+
+    width: 1425px;
+    height: 700px;
+}
+.blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+.qwer{
+
+    width: 300px;
+}
+.oq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xex{
+   
+    font-size: 3rem;
+    margin-top: 300px;
+    list-style: none;
+   
+}
+
+.text{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     margin-left:25px;
+}
+li{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.engine{
+    width: 200px;
+ 
+    font-size: 1.5rem;
+   padding: 10px 10px;
+   margin: 10px 620px;
+
+}
+.web{ display: flex;
+    background-color: wheat;
+    width: 1000px;
+    height: 100px;
+margin-left: 210px;
+margin-top: 105px;
+border-radius: 30px;
+border: red 10px 0px solid;
+
+}
+h3{
+ margin-left: 135px;
+border-right: 3px solid black;
+font-size: 30px;
+}
+.popular{
+    
+
+   width: 250px;
+   margin-top: 150px;
+   font-size: 30px;
+   margin-left: 250px;
+}
+   
+.img0{
+  display: flex;
+  justify-content: center;
+margin-left: 500px;
+gap: 100px;
+margin-top: 30px;
+
+}
+.img10{
+  display: flex;
+  justify-content: center;
+  margin-left: 500px;
+gap: 100px;
+margin-top: 30px;
+}
+.rew{
+  
+   width: 350px;
+   margin-top: 60px;
+   font-size: 30px;
+   margin-left: 250px;
+}
+.mid{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-left: 220px;
+    font-size: 15px;
+    width: 1000px; 
+}
+.yul{
+    display: flex;
+    width: 1200px;
+    margin-left: 120px;
+}
+
+.yul div{
+    margin-left: 180px;
+    
+}
+.img5{
+
+    display: flex;
+    width: 1200px;
+  height: 400px;
+    padding-left: 50px;
+}
+.img5 h2{
+
+    width: 360px
+    ;
+    height: 100px;
+    margin-top: 60px;
+    position: absolute;
+    right: 420px;
+    
+}
+.img5 h4{
+    
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 737px;
+}
+.img5 p{
+   
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 741px;
+    top: 1700px;
+}
+.img5 button{
+    background-color: green;
+    width: 124px;
+    height: 40px;
+    position: absolute;
+    left: 740px;
+    top: 1840px;
+}
+.article{
+   
+    position: absolute;
+    top: 1841px;
+    left: 900px;
+    text-align: center;
+}
+.article button{
+    background-color: brown;
+   
+  width: 124px;
+    height: 40px;
+}
+h1:hover{
+    background-color: red;
+    transition-duration: 3s;
+    font-size: 30px;
+
+}
+a:hover{
+    background-color: aqua;
+   font-size: 35px;
+   transition-duration: 1s;
+   transition-delay: 0.3s;
+  
+}
+a:active{
+    background-color: red;
+    font-size: 20px;
+    transition-duration: 1s;
+    color: aqua;
+    
+}
